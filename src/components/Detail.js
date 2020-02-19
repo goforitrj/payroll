@@ -3,7 +3,7 @@ import React from 'react';
 function Detail() {
     return (
         <>
-            <div>
+            <div id="wrap_detail">
                 <h2>Jonny Bravo</h2>
                 <div id="wrap_table">
                     <div id="wrap_table_tax">
@@ -58,11 +58,11 @@ function Detail() {
                         <h3>Calculation - Taxable</h3>
                         <div>
                             <div className="totalBTA">
-                                <p>totalBeforeTaxAdditions</p>
+                                <p>totalBefore TaxAdditions</p>
                                 <p>375</p>
                             </div>
                             <div className="totalBTD">
-                                <p>totalBeforeTaxDeductions</p>
+                                <p>totalBefore TaxDeductions</p>
                                 <p>0</p>
                             </div>
                             <div className="tax">
@@ -75,11 +75,11 @@ function Detail() {
                         <h3>Calculation - Non Taxable</h3>
                         <div>
                             <div className="totalBTA">
-                                <p>totalAfterTaxAdditions</p>
+                                <p>totalAfter TaxAdditions</p>
                                 <p>0</p>
                             </div>
                             <div className="totalBTD">
-                                <p>totalAfterTaxDeductions</p>
+                                <p>totalAfter TaxDeductions</p>
                                 <p>48</p>
                             </div>
                         </div>

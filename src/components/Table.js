@@ -11,11 +11,11 @@ function Table() {
                             <th>first name</th>
                             <th>last name</th>
                             <th>email</th>
-                            <th>totalBeforeTaxAdditions</th>
-                            <th>totalBeforeTaxDeductions</th>
+                            <th>totalBefore TaxAdditions</th>
+                            <th>totalBefore TaxDeductions</th>
                             <th>calculatedTax</th>
-                            <th>totalAfterTaxAdditions</th>
-                            <th>totalAfterTaxDeductions</th>
+                            <th>totalAfter TaxAdditions</th>
+                            <th>totalAfter TaxDeductions</th>
                             <th>totalNet</th>
                         </tr>
                     </thead>
