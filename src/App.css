@@ -87,6 +87,27 @@ td {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+#total_table_wrap input {
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+#total_table_wrap #table_button_area {
+    padding-top: 20px;
+}
+#total_table_wrap #table_button_area button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
 #wrap_detail {
     width: 80%;
     background-color: #fff;
@@ -105,6 +126,17 @@ td {
     font-weight: bold;
     text-align: center;
     line-height: 2em;
+}
+
+#wrap_detail #close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 #wrap_table {
@@ -137,6 +169,7 @@ td {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    text-align: center;
 }
 
 #wrap_cal > div {
@@ -161,4 +194,53 @@ td {
 
 #wrap_cal #calc_result {
     flex: 2;
+}
+
+@keyframes mark {
+    0% {
+        background-color: yellowgreen;
+    }
+    100% {
+        background-color: #eee;
+    }
+}
+
+#wrap_register {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-right: 2em;
+    line-height: 2em;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(32, 22, 22, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+#wrap_register h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2em;
+}
+
+#wrap_register #close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#wrap_register .component_form {
+    display: flex;
 }

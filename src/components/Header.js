@@ -3,7 +3,9 @@ import React from 'react';
 function Header() {
     return (
         <>
-            <div id="header">Rock Fast Payroll System</div>
+            <div id="header">
+                <h1>Rock Fast Payroll System</h1>
+            </div>
         </>
     );
 }
