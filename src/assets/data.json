@@ -1,0 +1,188 @@
+{
+    "eventRecords": [
+        {
+            "employee": {
+                "id": 1,
+                "firstName": "Johnny",
+                "lastName": "Bravo",
+                "email": "whoamomma@acme.com"
+            },
+            "components": [
+                {
+                    "name": "Normal",
+                    "units": 15,
+                    "rate": 25,
+                    "taxable": true,
+                    "type": "addition"
+                },
+                {
+                    "name": "Child support",
+                    "units": 1,
+                    "rate": 48,
+                    "taxable": false,
+                    "type": "deduction"
+                }
+            ],
+            "totalBeforeTaxAdditions": 375,
+            "totalBeforeTaxDeductions": 0,
+            "calculatedTax": 75,
+            "calculatedNet": 300,
+            "totalAfterTaxAdditions": 0,
+            "totalAfterTaxDeductions": 48,
+            "totalNet": 177
+        },
+        {
+            "employee": {
+                "id": 2,
+                "firstName": "Clarice",
+                "lastName": "Starling",
+                "email": "veganforever@acme.com"
+            },
+            "components": [
+                {
+                    "name": "Normal",
+                    "units": 40,
+                    "rate": 51.5,
+                    "taxable": true,
+                    "type": "addition"
+                },
+                {
+                    "name": "Union fees",
+                    "units": 1,
+                    "rate": 15,
+                    "taxable": true,
+                    "type": "deduction"
+                },
+                {
+                    "name": "Expenses",
+                    "units": 1,
+                    "rate": 131.95,
+                    "taxable": false,
+                    "type": "addition"
+                }
+            ],
+            "totalBeforeTaxAdditions": 2060,
+            "totalBeforeTaxDeductions": 15,
+            "calculatedTax": 409,
+            "calculatedNet": 1636,
+            "totalAfterTaxAdditions": 131.95,
+            "totalAfterTaxDeductions": 0,
+            "totalNet": 1767.95
+        },
+        {
+            "employee": {
+                "id": 2,
+                "firstName": "Clarice",
+                "lastName": "Starling",
+                "email": "veganforever@acme.com"
+            },
+            "components": [
+                {
+                    "name": "Normal",
+                    "units": 40,
+                    "rate": 51.5,
+                    "taxable": true,
+                    "type": "addition"
+                },
+                {
+                    "name": "Union fees",
+                    "units": 1,
+                    "rate": 15,
+                    "taxable": true,
+                    "type": "deduction"
+                },
+                {
+                    "name": "Expenses",
+                    "units": 1,
+                    "rate": 131.95,
+                    "taxable": false,
+                    "type": "addition"
+                }
+            ],
+            "totalBeforeTaxAdditions": 2060,
+            "totalBeforeTaxDeductions": 15,
+            "calculatedTax": 409,
+            "calculatedNet": 1636,
+            "totalAfterTaxAdditions": 131.95,
+            "totalAfterTaxDeductions": 0,
+            "totalNet": 1767.95
+        },
+        {
+            "employee": {
+                "id": 3,
+                "firstName": "James",
+                "lastName": "Bond",
+                "email": "007@acme.com"
+            },
+            "components": [
+                {
+                    "name": "Normal",
+                    "units": 20,
+                    "rate": 77.2,
+                    "taxable": true,
+                    "type": "addition"
+                }
+            ],
+            "totalBeforeTaxAdditions": 1000000,
+            "totalBeforeTaxDeductions": 1000000,
+            "calculatedTax": 1000000,
+            "calculatedNet": 1000000,
+            "totalAfterTaxAdditions": 1000000,
+            "totalAfterTaxDeductions": 1000000,
+            "totalNet": 1000000
+        },
+        {
+            "employee": {
+                "id": 4,
+                "firstName": "John",
+                "lastName": "Wick",
+                "email": "ilovemydog@acme.com"
+            },
+            "components": [
+                {
+                    "name": "Normal",
+                    "units": 20,
+                    "rate": 10,
+                    "taxable": true,
+                    "type": "addition"
+                }
+            ],
+            "totalBeforeTaxAdditions": 1000000,
+            "totalBeforeTaxDeductions": 1000000,
+            "calculatedTax": 1000000,
+            "calculatedNet": 1000000,
+            "totalAfterTaxAdditions": 1000000,
+            "totalAfterTaxDeductions": 1000000,
+            "totalNet": 1000000
+        },
+        {
+            "employee": {
+                "id": 5,
+                "firstName": "Roman",
+                "lastName": "Bellic",
+                "email": "10pin_king@acme.com"
+            },
+            "components": [
+                {
+                    "name": "Normal",
+                    "units": 100,
+                    "rate": 33,
+                    "taxable": true,
+                    "type": "addition"
+                }
+            ],
+            "totalBeforeTaxAdditions": 1000000,
+            "totalBeforeTaxDeductions": 1000000,
+            "calculatedTax": 1000000,
+            "calculatedNet": 1000000,
+            "totalAfterTaxAdditions": 1000000,
+            "totalAfterTaxDeductions": 1000000,
+            "totalNet": 1000000
+        }
+    ],
+    "totalBeforeTaxAdditions": 1000000,
+    "totalBeforeTaxDeductions": 1000000,
+    "calculatedTax": 1000000,
+    "totalAfterTaxAdditions": 1000000,
+    "totalAfterTaxDeductions": 1000000
+}

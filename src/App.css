@@ -1,38 +1,103 @@
+@import url('./reset.css');
+/*
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 17px;
+}
+#header {
+    background-color: gray;
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.5em;
+}
+#total_table_wrap {
+    background-color: orange;
+    padding: 20px;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+#total_table_wrap #total_table {
+    width: 80%;
+    background-color: #eee;
+}
+
+#wrap_table {
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrap_table #wrap_table_tax {
+    flex: 1;
+    background-color: yellow;
+}
+
+#wrap_table #wrap_table_non_tax {
+    flex: 1;
+    background-color: pink;
+}
+
+#wrap_cal {
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#wrap_cal #cal_tax {
+    flex: 3;
+    background-color: red;
+}
+
+#wrap_cal #cal_non_tax {
+    flex: 3;
+    background-color: green;
+}
+
+#wrap_cal #calc_result {
+    flex: 2;
+    background-color: blue;
 }
