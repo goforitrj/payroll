@@ -32,9 +32,9 @@ yarn start
 
 ## Functions
 
-# Provide 2 view modes : Table & Chart
+### Provide 2 view modes : Table & Chart
 
-# Functions in Table view mode
+### Functions in Table view mode
 * Sorting
 * Detail View
     * Click the details icon on the left
@@ -47,8 +47,9 @@ yarn start
     * Check more than 2 employee
     * Press Compare button
 
-# Functions in Table view mode (ideation)
-    * Analyise payroll data
-    * Use chart library ex) Highcharts (https://www.highcharts.com/demo)
+### Functions in Table view mode (ideation)
+
+* Analyise payroll data
+* Use chart library ex) Highcharts (https://www.highcharts.com/demo)
 
 
