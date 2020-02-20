@@ -8,29 +8,31 @@ function Register({ isRegisterOpen, onToggleRegister }) {
                 <div id="wrap_register">
                     <div>
                         <h2>Personal Information</h2>
-                        <div>
-                            <label htmlFor="firstName">First Name</label>
-                            <input
-                                id="firstName"
-                                type="text"
-                                placeholder="First name"
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="lastName">Last Name</label>
-                            <input
-                                id="lastName"
-                                type="text"
-                                placeholder="Last Name"
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="email">E-mail</label>
-                            <input
-                                id="email"
-                                type="text"
-                                placeholder="E-mail"
-                            />
+                        <div id="personal_info">
+                            <div>
+                                <label htmlFor="firstName">First Name</label>
+                                <input
+                                    id="firstName"
+                                    type="text"
+                                    placeholder="First name"
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="lastName">Last Name</label>
+                                <input
+                                    id="lastName"
+                                    type="text"
+                                    placeholder="Last Name"
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="email">E-mail</label>
+                                <input
+                                    id="email"
+                                    type="text"
+                                    placeholder="E-mail"
+                                />
+                            </div>
                         </div>
                     </div>
                     {/* name	units	rate	taxable	type */}
@@ -75,6 +77,11 @@ function Register({ isRegisterOpen, onToggleRegister }) {
                                         nonTaxable
                                     </option>
                                 </select>
+                            </div>
+                            <div>
+                                <button>
+                                    <i class="fas fa-plus"></i>
+                                </button>
                             </div>
                         </div>
                     </div>

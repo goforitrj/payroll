@@ -4,19 +4,21 @@ import Table from './components/TotalTable';
 import Header from './components/Header';
 import Detail from './components/DetailModal';
 import Register from './components/RegisterModal';
+import Compare from './components/CompareModal';
 
 function App() {
     const [isDetailOpen, toggleDetailOpen] = useState(false);
     const [isRegisterOpen, toggleRegisterOpen] = useState(false);
+    const [isCompareOpen, toggleCompareOpen] = useState(false);
+    const [viewMode, setViewMode] = useState('table');
 
     const onToggleDetail = () => toggleDetailOpen(!isDetailOpen);
     const onToggleRegister = () => {
-        console.log('?');
         toggleRegisterOpen(!isRegisterOpen);
     };
-
-    const onSort = () => {
-        console.log('sort');
+    const onToggleCompareOpen = () => {
+        console.log(isCompareOpen);
+        toggleCompareOpen(!isCompareOpen);
     };
     return (
         <div className="App">
@@ -24,7 +26,7 @@ function App() {
             <Table
                 onToggleDetail={onToggleDetail}
                 onToggleRegister={onToggleRegister}
-                onSort={onSort}
+                onToggleCompareOpen={onToggleCompareOpen}
             ></Table>
             <Detail
                 onToggleDetail={onToggleDetail}
@@ -33,7 +35,12 @@ function App() {
             <Register
                 isRegisterOpen={isRegisterOpen}
                 onToggleRegister={onToggleRegister}
+                isCompareOpen={isCompareOpen}
             ></Register>
+            <Compare
+                isCompareOpen={isCompareOpen}
+                onToggleCompareOpen={onToggleCompareOpen}
+            ></Compare>
         </div>
     );
 }

@@ -1,6 +1,11 @@
 import React from 'react';
 
-function Table({ onToggleDetail, onToggleRegister, onCompare }) {
+function Table({
+    onToggleDetail,
+    onToggleRegister,
+    onCompare,
+    onToggleCompareOpen
+}) {
     return (
         <>
             <div id="total_table_wrap">
@@ -130,6 +135,25 @@ function Table({ onToggleDetail, onToggleRegister, onCompare }) {
                             <td>48</td>
                             <td>177</td>
                         </tr>
+                        <tr>
+                            <td>
+                                <i
+                                    className="far fa-edit"
+                                    onClick={onToggleDetail}
+                                ></i>
+                                <input type="checkbox"></input>
+                            </td>
+                            <td>1</td>
+                            <td>Johnny</td>
+                            <td>Bravo</td>
+                            <td>whoamomma@acme.com</td>
+                            <td>375</td>
+                            <td>0</td>
+                            <td>300</td>
+                            <td>0</td>
+                            <td>48</td>
+                            <td>177</td>
+                        </tr>
                     </tbody>
                     <tfoot>
                         <tr>
@@ -140,16 +164,13 @@ function Table({ onToggleDetail, onToggleRegister, onCompare }) {
                                 ></i>
                                 <input type="checkbox"></input>
                             </td>
-                            <td>BLANK</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
-                            <td>TOTAL</td>
+                            <td colspan="4">RESULT</td>
+                            <td>SUM</td>
+                            <td>SUM</td>
+                            <td>SUM</td>
+                            <td>SUM</td>
+                            <td>SUM</td>
+                            <td>SUM</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -157,7 +178,7 @@ function Table({ onToggleDetail, onToggleRegister, onCompare }) {
                     <button id="toggle" onClick={onToggleRegister}>
                         ADD EMPLOYEE
                     </button>
-                    <button id="compare" onClick={onCompare}>
+                    <button id="compare" onClick={onToggleCompareOpen}>
                         COMPARE
                     </button>
                 </div>
